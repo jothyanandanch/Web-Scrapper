@@ -101,5 +101,6 @@ def scrape_website(url):
     extract_paragraphs(soup)
 
 if __name__ == "__main__":
+    #You can change the url here but it only works for  times of india
     url = 'https://timesofindia.indiatimes.com/world/middle-east/tensions-soar-why-did-israel-strike-iran-what-makes-the-timing-crucial-explained/articleshow/121818858.cms'
     scrape_website(url)
